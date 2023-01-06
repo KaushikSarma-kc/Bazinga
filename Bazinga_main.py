@@ -21,7 +21,7 @@ while True:
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
     blurred = cv2.GaussianBlur(hsv, value,0)
     colourUpper = np.array([180,255,255]) 
-    colourLower = np.array([53, 55, 209])
+    colourLower = np.array([85, 95, 0])
     width = img.shape[1]
     height = img.shape[0]
 
